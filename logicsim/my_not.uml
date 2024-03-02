@@ -1,0 +1,176 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ENTERING POP FUCNTION
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+HEAP BEFORE ANYTHING
+
+0x563a22c2a1d0 0x563a22c2a210 0x563a22c2a1f0 0x563a22c2a230 
+
+
+HEAP AFTER POP
+
+0x563a22c2a230 0x563a22c2a210 0x563a22c2a1f0 
+
+
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+ ENTERING HEAPIFY DOWN
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+0x563a22c2a210 0x563a22c2a230 0x563a22c2a1f0 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ENTERING POP FUCNTION
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+HEAP BEFORE ANYTHING
+
+0x563a22c2a1d0 0x563a22c2a210 0x563a22c2a1f0 0x563a22c2a230 
+
+
+HEAP AFTER POP
+
+0x563a22c2a230 0x563a22c2a210 0x563a22c2a1f0 
+
+
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+ ENTERING HEAPIFY DOWN
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+0x563a22c2a210 0x563a22c2a230 0x563a22c2a1f0 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ENTERING POP FUCNTION
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+HEAP BEFORE ANYTHING
+
+0x563a22c2a210 0x563a22c2a230 0x563a22c2a1f0 
+
+
+HEAP AFTER POP
+
+0x563a22c2a1f0 0x563a22c2a230 
+
+
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+ ENTERING HEAPIFY DOWN
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+0x563a22c2a1f0 0x563a22c2a230 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ENTERING POP FUCNTION
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+HEAP BEFORE ANYTHING
+
+0x563a22c2a210 0x563a22c2a230 0x563a22c2a1f0 
+
+
+HEAP AFTER POP
+
+0x563a22c2a1f0 0x563a22c2a230 
+
+
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+ ENTERING HEAPIFY DOWN
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+0x563a22c2a1f0 0x563a22c2a230 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ENTERING POP FUCNTION
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+HEAP BEFORE ANYTHING
+
+0x563a22c2a1f0 0x563a22c2a230 
+
+
+HEAP AFTER POP
+
+0x563a22c2a230 
+
+
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+ ENTERING HEAPIFY DOWN
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+0x563a22c2a230 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ENTERING POP FUCNTION
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+HEAP BEFORE ANYTHING
+
+0x563a22c2a1f0 0x563a22c2a230 
+
+
+HEAP AFTER POP
+
+0x563a22c2a230 
+
+
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+ ENTERING HEAPIFY DOWN
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+0x563a22c2a230 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ENTERING POP FUCNTION
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+HEAP BEFORE ANYTHING
+
+0x563a22c2a230 
+
+
+HEAP AFTER POP
+
+
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ENTERING POP FUCNTION
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+HEAP BEFORE ANYTHING
+
+0x563a22c2a230 
+
+
+HEAP AFTER POP
+
+
+
+
+@startuml
+binary "input" as W0
+binary "output" as W1
+
+@0
+W0 is {low,high} 
+W1 is {low,high} 
+
+@2
+W0 is low
+
+@2
+W1 is high
+
+@4
+W0 is high
+
+@4
+W1 is low
+
+@6
+W0 is low
+
+@6
+W1 is high
+
+@8
+W0 is high
+
+@8
+W1 is low
+
+@enduml
+
